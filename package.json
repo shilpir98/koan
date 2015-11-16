@@ -16,7 +16,9 @@
   },
   "scripts": {
     "start": "grunt",
-    "test": "node --debug --harmony node_modules/grunt-cli/bin/grunt test",
+    "test": "npm run test-server && npm run test-client && npm run lint",
+    "test-server": "node --debug --harmony node_modules/grunt-cli/bin/grunt test",
+    "test-client": ":",
     "postinstall": "bower install",
     "postupdate": "bower update",
     "lint": "./node_modules/.bin/eslint ."
