@@ -8,11 +8,11 @@
     "url": "git://github.com/soygul/koan.git"
   },
   "engines": {
-    "node": "<5.0"
+    "node": ">=4.0"
   },
   "author": {
     "name": "Teoman Soygul",
-    "url": "http://www.soygul.com/"
+    "url": "http://soygul.com"
   },
   "scripts": {
     "start": "grunt",
