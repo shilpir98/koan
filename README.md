@@ -52,6 +52,9 @@ Optionally, you can pass credentials to KOAN via environment variables as it mig
 heroku config:add SECRET=jwt_secret PASS=login_pass FACEBOOK_SECRET=facebook_oauth_secret GOOGLE_SECRET=google_oauth_secret
 ```
 
+## Coding Style
+Use [Airbnb JS Guide](https://github.com/airbnb/javascript). It is enforced along with the test runs (see below), or separately using `npm run lint`.
+
 ## Testing
 You can run all the tests with `npm test`. Tests are run with:
 * Client (unit): Jasmine + Karma (Angular default)

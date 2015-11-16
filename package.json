@@ -18,9 +18,11 @@
     "start": "grunt",
     "test": "node --debug --harmony node_modules/grunt-cli/bin/grunt test",
     "postinstall": "bower install",
-    "postupdate": "bower update"
+    "postupdate": "bower update",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
+    "babel-core": "6.1.20",
     "bower": "1.6.5",
     "co": "4.6.0",
     "co-mongo": "0.0.2",
@@ -40,6 +42,8 @@
   "devDependencies": {
     "co-mocha": "1.1.2",
     "co-supertest": "0.0.10",
+    "eslint": "1.9.0",
+    "eslint-config-airbnb": "1.0.0",
     "grunt-concurrent": "2.1.0",
     "grunt-contrib-watch": "0.6.1",
     "grunt-env": "0.4.4",
