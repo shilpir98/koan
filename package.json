@@ -1,18 +1,6 @@
 {
   "name": "koan",
-  "license": "MIT",
   "description": "KOAN Stack (Koa, Angular, Node, Mongo, WebSockets) for real-time full-stack JavaScript web development.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/soygul/koan.git"
-  },
-  "engines": {
-    "node": ">=4.0"
-  },
-  "author": {
-    "name": "Teoman Soygul",
-    "url": "http://soygul.com"
-  },
   "scripts": {
     "start": "app.js",
     "test": "npm run lint && npm run test-server && npm run test-client",
@@ -26,5 +14,11 @@
   "devDependencies": {
     "eslint": "1.9.0",
     "eslint-config-airbnb": "1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soygul/koan.git"
+  },
+  "author": "Teoman Soygul",
+  "license": "MIT"
 }
