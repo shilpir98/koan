@@ -6,13 +6,15 @@
     "test": "npm run lint && npm run test-server && npm run test-client",
     "lint": "./node_modules/.bin/eslint .",
     "test-server": ":",
-    "test-client": ":"
+    "test-client": ":",
+    "build-server": "./node_modules/.bin/babel server --out-dir dist/server",
+    "build-client": "./node_modules/.bin/babel client --out-dir dist/client"
   },
   "dependencies": {
-    "angular2": "2.0.0-alpha.46",
-    "babel-core": "6.2.1"
+    "angular2": "2.0.0-alpha.46"
   },
   "devDependencies": {
+    "babel-cli": "6.2.0",
     "eslint": "1.10.1",
     "eslint-config-airbnb": "1.0.0"
   },
