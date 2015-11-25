@@ -30,9 +30,11 @@ node_modules
 # A way to check in empty directories
 !.gitkeep
 
+# Dist package
+dist/
+
 # OS X
 .DS_Store
 
 # IntelliJ IDEA
 .idea/
-koan.iml
