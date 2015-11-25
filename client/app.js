@@ -1,6 +1,5 @@
-import * as ng from '../node_modules/angular2/es6/dev/angular2_sfx';
 
-var AppComponent = ng
+const app = ng
     .Component({
         selector: 'my-app',
         template: '<h1>My First Angular 2 App</h1>',
@@ -11,5 +10,5 @@ var AppComponent = ng
     });
 
 document.addEventListener('DOMContentLoaded', function () {
-    ng.bootstrap(AppComponent);
+    ng.bootstrap(app);
 });
