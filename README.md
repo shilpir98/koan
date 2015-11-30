@@ -13,7 +13,7 @@ KOAN Stack is a boilerplate that provides a nice starting point for full stack J
 
 ## KOAN for AngularJS 1.x
 
-Use the [v1.x branch](tree/v1.0).
+Use the [v1.x branch](tree/v1.x).
 
 ## Live Example
 Browse the live KOAN example on [https://koan.herokuapp.com](https://koan.herokuapp.com) which is a Facebook like real-time sharing app.
